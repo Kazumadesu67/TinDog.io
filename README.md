@@ -1,1 +1,1 @@
-# TinDog.io
+Tinder Clone, but for dogs.
