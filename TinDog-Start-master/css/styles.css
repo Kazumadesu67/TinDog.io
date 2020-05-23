@@ -1,0 +1,154 @@
+#title {
+  background-color: #ff4C68;
+    color: white;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+
+/*navigation bar*/
+
+.navbar{
+  padding-right: 1.5rem;
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  padding: 10 18px;
+}
+.nav-link{
+  font-size: 1rem;
+
+}
+#navbarTogglerDemo02{
+  margin-right: 50px;
+  padding-top: 0;
+}
+.nav-item{
+  margin-left: 30px;
+}
+.title-row{
+  padding-right: 50px;
+}
+.dog-row{
+  padding-left: 25px;
+
+}
+.dog_pic{
+  margin-top:20px;
+  transform: rotate(25deg);
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+/*Download Button*/
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+/*Features Section*/
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*Testimonial Section*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel{
+  max-height: 700px ;
+  overflow: hidden;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*Pricing Section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.btn-block{
+  margin-top: 25px;
+  padding: 3% 2%;
+}
+.btn-1{
+  margin-bottom: 8%;
+}
+.btn-2{
+  margin-top: 50px;
+}
+.card{
+  margin-top: 50px;
+}
+
+@media(max-width: 1028px){
+  .dog-pic{
+    position: relative;
+    z-index: 20;
+  }
+  .features{
+    position:
+  }
+}
