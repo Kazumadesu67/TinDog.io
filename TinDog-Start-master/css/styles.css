@@ -63,7 +63,7 @@ p{
   margin-top:20px;
   transform: rotate(25deg);
   width: 200px;
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
 
@@ -147,6 +147,8 @@ body{
   .dog-pic{
     position: relative;
     z-index: 20;
+    transform: rotate(0);
+
   }
   .features{
     position:
