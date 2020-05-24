@@ -1,31 +1,47 @@
+/*Title Section*/
+
 #title {
-  background-color: #ff4C68;
-    color: white;
+  text-align: left;
 }
-h1{
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*Headings*/
+
+h1, h2, h3, h4, h5, h6{
   font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
   font-weight: bolder;
 }
-h2{
-  font-family: "Montserrat";
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: bold;
 }
-h3{
+body{
   font-family: "Montserrat";
-  font-weight: bold;
+  text-align: center;
 }
 p{
   color: #8f8f8f;
 }
 
-.container-fluid{
-  padding:3% 15%;
-}
+/*Containers*/
 
+.container-fluid{
+  padding:7% 15%;
+}
+/*Sections*/
+.colored-section{
+  background-color: #ff4C68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+}
 
 /*navigation bar*/
 
@@ -39,7 +55,7 @@ p{
   font-size: 2rem;
   color: white;
   font-weight: bold;
-  padding: 10 18px;
+  padding: 10px 18px;
 }
 .nav-link{
   font-size: 1rem;
@@ -59,11 +75,12 @@ p{
   padding-left: 25px;
 
 }
-.dog_pic{
+.dog-pic{
   margin-top:20px;
   transform: rotate(25deg);
-  width: 200px;
-  position: relative;
+  width: 50%;
+  max-width: 300px;
+  position: absolute;
   z-index: 1;
 }
 
@@ -77,15 +94,16 @@ body{
 }
 /*Features Section*/
 #features{
-  padding: 7% 15%;
   background-color: white;
   position: relative;
   z-index: 2;
 }
 
 .feature-box{
-  text-align: center;
   padding: 5%
+}
+.feature-title{
+  font-size: 1.5rem;
 }
 .icon{
   color: #ef8172;
@@ -97,10 +115,13 @@ body{
 
 /*Testimonial Section*/
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
@@ -110,12 +131,8 @@ body{
   max-height: 700px ;
   overflow: hidden;
 }
-.carousel-item{
-    padding: 7% 15%;
-}
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo{
@@ -127,7 +144,6 @@ body{
 /*Pricing Section*/
 #pricing{
   padding: 100px;
-  text-align: center;
 }
 .btn-block{
   margin-top: 25px;
@@ -142,15 +158,64 @@ body{
 .card{
   margin-top: 50px;
 }
-
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 @media(max-width: 1028px){
   .dog-pic{
     position: relative;
     z-index: 20;
     transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
 
-  }
-  .features{
-    position:
-  }
+
+/*Call to Action*/
+.btn-cta{
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.cta-h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/*Footer*/
+.footer-p{
+  margin-bottom: 2%;
+}
+.fa{
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  image-orientation: center;
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+.fa:hover{
+  opacity: 0.7;
+  background-color:#ef8172 ;
+  color: white;
+}
+.fa-facebook{
+  color: black;
+}
+.fa-instagram{
+  color:black;
+}
+.fa-twitter{
+  color: black;
+}
+.fa-envelope{
+  color: black;
 }
